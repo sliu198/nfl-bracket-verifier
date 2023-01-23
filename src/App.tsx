@@ -5,10 +5,8 @@ import PickContent, { MatchupType } from "./PickContent";
 import VerifyContent from "./VerifyContent";
 
 const MATCHUPS: MatchupType[] = [
-  ["JAX", "KC"],
-  ["NYG", "PHI"],
-  ["CIN", "BUF"],
-  ["DAL", "SF"],
+  ["SF", "PHI"],
+  ["CIN", "KC"],
 ];
 
 const TEXT_ENCODER = new TextEncoder();
